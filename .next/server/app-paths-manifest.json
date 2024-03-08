@@ -1,0 +1,20 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/admin/login/page": "app/admin/login/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/(admin)/users-and-subscribed/page": "app/(admin)/users-and-subscribed/page.js",
+  "/(admin)/image-and-categories/page": "app/(admin)/image-and-categories/page.js",
+  "/(admin)/packages/page": "app/(admin)/packages/page.js",
+  "/(user)/[tag]/[id]/page": "app/(user)/[tag]/[id]/page.js",
+  "/(user)/category/[category]/page": "app/(user)/category/[category]/page.js",
+  "/(user)/generate-images/generating-from-prompt/page": "app/(user)/generate-images/generating-from-prompt/page.js",
+  "/(user)/generate-images/page": "app/(user)/generate-images/page.js",
+  "/(user)/page": "app/(user)/page.js",
+  "/(user)/privacy-policy/page": "app/(user)/privacy-policy/page.js",
+  "/(user)/subscriptions-offers/page": "app/(user)/subscriptions-offers/page.js",
+  "/(user)/terms-and-conditions/page": "app/(user)/terms-and-conditions/page.js",
+  "/(user)/user/[id]/page": "app/(user)/user/[id]/page.js",
+  "/(user)/faqs/page": "app/(user)/faqs/page.js",
+  "/(user)/contact-us/page": "app/(user)/contact-us/page.js"
+}

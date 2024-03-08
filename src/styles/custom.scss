@@ -1,0 +1,480 @@
+button {
+  display: flex !important;
+  align-items: center !important;
+
+  &:hover {
+    color: white !important;
+  }
+}
+
+// :where(.css-dev-only-do-not-override-k5nppk).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+//   background-color: transparent !important;
+// }
+
+:where(.css-dev-only-do-not-override-k5nppk).ant-table-wrapper .ant-table-pagination.ant-pagination {
+  margin: 0 !important;
+  padding: 16px 0px !important;
+}
+
+// :where(.css-dev-only-do-not-override-k5nppk).ant-table-wrapper .ant-table-thead >tr>th, :where(.css-dev-only-do-not-override-k5nppk).ant-table-wrapper .ant-table-thead >tr>td {
+//   font-size: large;
+// }
+.ant-btn-primary {
+  // background: none;
+  background-color: transparent;
+}
+
+.ant-btn-primary:hover {
+  background-color: #c779d0 !important;
+}
+
+.ant-btn-secondary {
+  background-color: transparent !important;
+  color: white;
+}
+
+.ant-btn-secondary:hover {
+  border: 1px solid #c779d0 !important;
+}
+
+.ant-btn-tertuary:hover {
+  background-color: #c779d0 !important;
+  color: white !important;
+}
+
+.ant-table-thead tr .ant-table-cell {
+  font-size: 18px !important;
+}
+
+.packages-dropdown {
+  width: 100%;
+}
+
+.primary-btn {
+  background-image: linear-gradient(to right,
+      #feac5e 0%,
+      #c779d0 51%,
+      #feac5e 100%);
+  // margin: 10px;
+  // padding: 20px 30px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  // box-shadow: 2px 0 2px #eee;
+  border-radius: 10px;
+  display: block;
+
+  &:hover {
+
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+/* HTML: <div className="loader"></div> */
+.loader {
+  width: 40px;
+  height: 40px;
+  --c: no-repeat linear-gradient(orange 0 0);
+  background: var(--c), var(--c), var(--c), var(--c);
+  background-size: 21px 21px;
+  animation: l5 1.5s infinite cubic-bezier(0.3, 1, 0, 1);
+}
+
+@keyframes l5 {
+  0% {
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+  }
+
+  33% {
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    width: 60px;
+    height: 60px;
+  }
+
+  66% {
+    background-position: 100% 0, 100% 100%, 0 100%, 0 0;
+    width: 60px;
+    height: 60px;
+  }
+
+  100% {
+    background-position: 100% 0, 100% 100%, 0 100%, 0 0;
+  }
+}
+
+//====================================
+// antd modal
+//====================================
+// .user-side-modal{
+.ant-modal-content {
+  position: relative;
+  overflow: hidden;
+  background-color: #141414 !important;
+  // height: 75vh;
+  padding: 0 !important;
+  // width: 100%;
+}
+
+// }
+//====================================
+// antd modal
+//====================================
+.GoogleloginBtn {
+  .ant-btn-icon {
+    padding-right: 1rem !important;
+  }
+}
+
+//=================================
+// antd search
+//=================================
+.antd-search-input {
+  .ant-input-group-wrapper {
+    height: 60px !important;
+    border: none !important;
+    border-radius: 10px !important;
+    background-color: transparent;
+
+    .ant-input-group {
+      border: none !important;
+      height: 60px !important;
+
+      input {
+        height: 60px !important;
+        border: none !important;
+      }
+
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none !important;
+        width: 60px;
+      }
+    }
+  }
+}
+
+//--------------------------------------------------//
+// antd ribbon language selector styling
+//--------------------------------------------------//
+.antd-selector-for-user {
+  .ant-select-selector {
+    height: 60px !important;
+    background-color: #ffd970 !important;
+    color: #141414;
+    font-size: 1rem !important;
+  }
+
+  .ant-select .ant-select-arrow .anticon {
+    color: #141414 !important;
+  }
+}
+
+.antd-selector-for-admin {
+  .ant-select-selector {
+    background-color: #141414 !important;
+    color: white;
+    font-size: 1rem !important;
+    padding: 5px 30px !important;
+  }
+
+  .ant-select .ant-select-arrow .anticon {
+    color: #141414 !important;
+  }
+
+  .ant-input-affix-wrapper-lg {
+    background-color: #141414 !important;
+
+    svg {
+      fill: #fff;
+    }
+  }
+
+  .ant-input-affix-wrapper>input.ant-input {
+    background-color: #141414 !important;
+    color: white !important;
+
+    &::placeholder {
+      color: gray !important;
+    }
+  }
+}
+
+.antd-selector-for-packages-dropdown {
+                    
+  .ant-select-outlined {
+    width: 100%!important;
+  }
+  .ant-select-selector {
+    background-color: #141414 !important;
+    color: white;
+    font-size: 18px !important;
+    padding : 22px 12px !important;
+    border-radius: 12px;
+  }
+
+  .ant-select .ant-select-arrow .anticon {
+    color: white !important;
+    margin-top: 16px ;
+  }
+}
+
+.admin-login-screen {
+  input {
+    border-radius: 10px !important;
+    margin: 0 !important;
+    background: #141414 !important;
+
+    &::placeholder {
+      color: #505050 !important;
+    }
+  }
+
+  .ant-input-affix-wrapper {
+    border-radius: 12px !important;
+    padding: 0 !important;
+    background: #141414 !important;
+    overflow: hidden;
+  }
+
+  .ant-input-affix-wrapper>input.ant-input {
+    padding: 12px;
+  }
+
+  .ant-input-affix-wrapper .ant-input-suffix {
+    margin-right: 12px !important;
+  }
+}
+
+/* ==================================== */
+/* portal side bar customization */
+/* ==================================== */
+.portal-sidebar {
+
+  // :where(
+  //     .css-dev-only-do-not-override-fpg3f5
+  //   ).ant-menu-light.ant-menu-root.ant-menu-inline {
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  // }
+  .ant-menu-light.ant-menu-root.ant-menu-inline {
+    padding-left: 15px;
+  }
+
+  ul {
+    background-color: #141414 !important;
+    color: white !important;
+  }
+
+  li {
+    &:hover {
+      color: gray !important;
+    }
+  }
+
+  .ant-menu-light.ant-menu-inline .ant-menu-item {
+    width: 210px;
+    padding-left: 16px !important;
+  }
+
+  .ant-menu-item-selected {
+    background-color: #620380bd;
+    color: white;
+    position: relative;
+
+    svg {
+      path {
+        fill: white;
+        stroke: white;
+      }
+    }
+  }
+
+  .ant-menu-item-selected::before {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 25px;
+    border-radius: 20%;
+    background-color: white;
+  }
+}
+
+// ====================table===================
+.antd-table {
+  th {
+    background-color: #181818 !important;
+    color: white !important;
+    border-bottom: 1px solid #242424 !important;
+  }
+
+  .ant-table-tbody {
+    background-color: #141414 !important;
+    border-color: #242424 !important;
+  }
+
+  .ant-table-cell-row-hover {
+    border-color: #242424 !important;
+    background-color: #242323 !important;
+    border-color: #242424 !important;
+  }
+
+  .ant-table-wrapper .ant-table-thead>tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+    height: 0 !important;
+  }
+
+  .ant-table-wrapper .ant-table-tbody>tr>td {
+    border-color: #242424 !important;
+  }
+
+  .ant-table-cell {
+    background-color: #141414 !important;
+  }
+
+  .ant-empty-description {
+    color: white !important;
+  }
+
+  //====================================
+  // styling for antd paginations
+  //====================================
+  li {
+    button {
+      svg {
+        fill: #757575 !important;
+      }
+    }
+  }
+
+  .ant-pagination .ant-pagination-item {
+    background-color: #141414 !important;
+    color: white !important;
+    border: 1px solid #242424 !important;
+  }
+
+  .ant-pagination .ant-pagination-item a {
+    color: white !important;
+  }
+
+  .ant-pagination .ant-pagination-item-active {
+    background-color: #242424 !important;
+  }
+}
+
+.text-white-class {
+  input {
+    color: #fff !important;
+  }
+
+  .anticon {
+    color: #fff !important;
+  }
+}
+
+// .share-dropdown{
+// ul{
+//   background-color: #ffffff48 !important;
+// }
+// }
+
+//------------------------------
+// user info
+//------------------------------
+// .users_info_styling{
+ul {
+  background-color: #fff !important;
+}
+
+.ant-dropdown .ant-dropdown-menu {
+  width: 180px;
+  margin: 0 !important;
+  padding: 0 !important;
+
+  li {
+    height: 40px !important;
+    border-radius: 0 !important;
+  }
+}
+
+// }
+
+//==============================================
+// accordion styling
+//==============================================
+.ant-collapse {
+  border-color: #404040 !important;
+}
+
+.ant-collapse .ant-collapse-content {
+  color: gray !important;
+  background-color: transparent !important;
+  border-color: #404040 !important;
+}
+
+.ant-collapse>.ant-collapse-item {
+  border-color: #404040 !important;
+}
+
+.ant-collapse>.ant-collapse-item>.ant-collapse-header {
+  color: white !important;
+}
+
+.pagination-line-black {
+  .ant-table-pagination.ant-pagination {
+    background-color: #141414 !important;
+  }
+
+  .ant-pagination-options {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .antd-selector-for-user {
+    .ant-select-selector {
+      height: 45px !important;
+      background-color: #ffd970 !important;
+      color: #141414;
+      font-size: 1rem !important;
+    }
+
+    .ant-select .ant-select-arrow .anticon {
+      color: #141414 !important;
+    }
+  }
+
+  .antd-search-input {
+    .ant-input-group-wrapper {
+      height: 45px !important;
+      border: none !important;
+      border-radius: 10px !important;
+
+      .ant-input-group {
+        border: none !important;
+        height: 45px !important;
+
+        input {
+          height: 45px !important;
+          border: none !important;
+        }
+
+        button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: none !important;
+          width: 45px;
+        }
+      }
+    }
+  }
+}
